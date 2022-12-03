@@ -6,7 +6,13 @@ module.exports = {
     "./resources/**/*.vue",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'primary': '#064663',
+        'primaryLight': '#064659',
+        'secondary': '#22A39F',
+      }
+    },
   },
   plugins: [
     require('@tailwindcss/forms'),
